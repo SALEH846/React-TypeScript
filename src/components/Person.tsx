@@ -1,14 +1,14 @@
 type PersonProps = {
 	name: {
-		first: string;
-		last: string;
+		firstName: string;
+		lastName: string;
 	};
 };
 
 const Person = (props: PersonProps) => {
 	return (
 		<div>
-			{props.name.first} {props.name.last}
+			{props.name.firstName} {props.name.lastName}
 		</div>
 	);
 };
