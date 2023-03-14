@@ -1,0 +1,117 @@
+1st Step
+---------------------------------
+file --> components/Greet.tsx
+file --> App.tsx
+How to work with basic types of props -- number, boolean, string
+
+2nd step
+---------------------------------
+file --> components/Person.tsx
+file --> components/PersonList.tsx
+file --> App.tsx
+How to work with other types of props such as -- object, Arrays
+
+3rd step
+---------------------------------
+file --> components/Status.tsx
+file --> components/Heading.tsx
+file --> components/Oscar.tsx
+file --> components/Greet.tsx
+file --> App.tsx
+How to work with advance props such as -- unions, children (simple text), children (another react component)
+How to make props optional
+
+4th step
+---------------------------------
+file --> components/Button.tsx
+file --> components/Input.tsx
+file --> App.tsx
+How to pass events as props
+How to work with onClick and onChange events
+
+5th step
+---------------------------------
+file --> components/Container.tsx
+file --> App.tsx
+How to pass Style props
+
+6th step
+---------------------------------
+file --> components/state/LoggedIn.tsx
+file --> components/state/User.tsx
+file --> App.tsx
+How to work with `useState` hook
+
+7th step
+---------------------------------
+file --> components/state/Counter.tsx
+file --> App.tsx
+How to work with `useReducer` hook
+
+8th step
+---------------------------------
+file --> components/context/Box.tsx
+file --> components/context/theme.ts
+file --> components/context/ThemeContext.tsx
+These files contain the example for the case when we know the value of context beforehand
+file --> components/context/User.tsx
+file --> components/context/UserContext.tsx
+These files contain the example for the case when we have to deal with the future value of context which we don't know beforehand
+file --> App.tsx
+How to work with `useContext` hook
+
+9th step
+---------------------------------
+file --> components/ref/DomRef.tsx
+file --> components/ref/MutableRef.tsx
+file --> App.tsx
+How to work with `useRef` hook
+
+10th step
+---------------------------------
+file --> components/class/Counter.tsx
+file --> App.tsx
+How to work with class components' props and state
+
+11th step
+---------------------------------
+file --> components/auth/Login.tsx
+file --> components/auth/Profile.tsx
+file --> components/auth/Private.tsx
+file --> App.tsx
+Passing React components as props to other components
+
+12th step
+---------------------------------
+file --> components/generics/List.tsx
+file --> App.tsx
+How to work with Generic props
+
+13th step
+---------------------------------
+file --> components/restriction/RandomNumber.tsx
+file --> App.tsx
+Restricting the props
+
+14th step
+---------------------------------
+file --> components/templateliterals/Toast.tsx
+file --> App.tsx
+How to work with template literals and usage of Exclude keyword
+
+15th step
+---------------------------------
+file --> components/html/Button.tsx
+file --> components/html/Input.tsx
+file --> components/html/CustomComponent.tsx
+file --> App.tsx
+How to wrap HTML elements
+Deal with the attributes of HTML elements such as children, onClick, onChange, etc.
+How to extract a component's props
+
+16th step
+---------------------------------
+file --> components/polymorphic/Text.tsx
+file --> App.tsx
+How to work with Polymorphic components
+A component which receives `as` prop is called polymorphic component
